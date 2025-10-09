@@ -79,6 +79,7 @@ const IPODetailsPage = () => {
               logo={ipo.logo} 
               logoColor={ipo.logoColor} 
               size="large"
+              isImage={ipo.isImage}
             />
             <div className="company-header__details">
               <h1 className="company-name">{ipo.company}</h1>
@@ -125,7 +126,7 @@ const IPODetailsPage = () => {
             </div>
             <div className="ipo-detail-item">
               <span className="ipo-detail-label">Listing gains</span>
-              <span className="ipo-detail-value">{ipo.listingGains}</span>
+              <span className="ipo-detail-value">{ipo.listingGains}{"("}<span className="ipo-detail-value-color">{ipo.listingGainsPercentage}</span>{")"}</span>
             </div>
           </div>
         </div>

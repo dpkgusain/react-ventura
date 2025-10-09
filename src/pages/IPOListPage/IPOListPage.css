@@ -54,7 +54,7 @@
 }
 
 .ipo-table__cell--investment {
-  justify-content: flex-end;
+  justify-content: flex-start;
   text-align: right;
 }
 

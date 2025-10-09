@@ -6,7 +6,7 @@
 
 .action-button {
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   font-family: 'Sora', sans-serif;
   font-weight: 500;
   cursor: pointer;
@@ -29,14 +29,14 @@
 }
 
 .action-button--apply {
-  background: #1e40af;
+  background: #131B38;
   color: white;
-  padding: 12px 24px;
+  padding: 20px 45px;
   font-size: 14px;
 }
 
 .action-button--apply:hover {
-  background: #1d4ed8;
+  background: #314383;
 }
 
 @media (max-width: 768px) {

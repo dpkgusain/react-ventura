@@ -82,6 +82,12 @@
   font-weight: 600;
 }
 
+.ipo-detail-value-color {
+  font-size: 16px;
+  color: #F55D40;
+  font-weight: 600;
+}
+
 .ipo-timeline-card {
   margin-bottom: 24px;
 }
@@ -158,6 +164,10 @@
   }
   
   .ipo-detail-value {
+    font-size: 15px;
+  }
+
+  .ipo-detail-value-color{
     font-size: 15px;
   }
   

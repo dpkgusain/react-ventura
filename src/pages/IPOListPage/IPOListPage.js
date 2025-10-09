@@ -42,7 +42,8 @@ const IPOListPage = () => {
                   <CompanyLogo 
                     logo={ipo.logo} 
                     logoColor={ipo.logoColor} 
-                    size="small"
+                    // size="small"
+                    isImage={ipo.isImage}
                   />
                   <div className="company-details">
                     <div className="company-name">{ipo.company}</div>
