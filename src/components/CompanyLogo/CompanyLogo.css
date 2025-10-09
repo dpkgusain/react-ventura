@@ -1,0 +1,32 @@
+.company-logo {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.company-logo--small {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+}
+
+.company-logo--medium {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.company-logo--large {
+  width: 64px;
+  height: 64px;
+  font-size: 20px;
+}
+
+.company-logo__text {
+  text-align: center;
+  line-height: 1;
+}

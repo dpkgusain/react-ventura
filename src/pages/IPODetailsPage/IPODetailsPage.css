@@ -1,0 +1,192 @@
+.ipo-details-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.error-message {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  font-size: 18px;
+}
+
+.company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+}
+
+.company-header__info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.company-header__details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.company-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.company-full-name {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 20px 0;
+}
+
+.ipo-details-card {
+  margin-bottom: 24px;
+}
+
+.ipo-details-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.ipo-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ipo-detail-label {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.ipo-detail-value {
+  font-size: 16px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.ipo-timeline-card {
+  margin-bottom: 24px;
+}
+
+.about-company-card {
+  margin-bottom: 24px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-text {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 15px;
+  margin: 0;
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.read-more-btn:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .company-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .company-header__info {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .company-name {
+    font-size: 24px;
+  }
+  
+  .company-full-name {
+    font-size: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .ipo-details-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .ipo-detail-label {
+    font-size: 13px;
+  }
+  
+  .ipo-detail-value {
+    font-size: 15px;
+  }
+  
+  .about-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .company-header {
+    padding: 16px;
+  }
+  
+  .company-header__info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .company-name {
+    font-size: 22px;
+  }
+  
+  .ipo-details-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .card-title {
+    font-size: 16px;
+  }
+}
