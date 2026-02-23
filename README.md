@@ -122,6 +122,3 @@ The application follows modern React best practices:
 ## License
 
 This project is created for demonstration purposes.
-
-
-
