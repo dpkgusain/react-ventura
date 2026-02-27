@@ -28,8 +28,6 @@ yarn-error.log*
 *.swo
 
 # OS
+# Thumbs.db
 Thumbs.db
-
-
-
 
